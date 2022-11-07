@@ -15,29 +15,4 @@ public class Cliente
         CodiceFiscale = codiceFiscale;
         Stipendio = stipendio;
     }
-
-    public void AggiugiCliente (string Input)
-    {
-        switch (Input)
-        {
-            case "aggiungere":
-
-                Console.WriteLine("digita il tuo nome");
-                string nomeInput = Console.ReadLine();
-
-                Console.WriteLine("digita il tuo cognome");
-                string cognomeInput = Console.ReadLine();
-
-                Console.WriteLine("digita il tuo codice fiscale");
-                string codiceFiscInput = Console.ReadLine();
-
-                Console.WriteLine("inserisci il tuo stipendio");
-                string stipendioInput = Console.ReadLine();
-
-                return;
-            default:
-                break;
-        }
-
-    }
 }
