@@ -19,3 +19,5 @@ Console.WriteLine("Ho trovato il cliente " + cercaCliente.Nome + " " + cercaClie
 DateOnly inizio = DateOnly.FromDateTime(DateTime.Now);
 DateOnly fine = inizio.AddMonths(24);
 banca.NuovoPrestito("CRNSMN", 10000, inizio, fine);
+
+List<Prestito> prestitoTrovato = banca.ricercaPrestitiCliente("MRARSS00E256DD89");
